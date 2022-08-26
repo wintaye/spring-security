@@ -32,8 +32,6 @@ public class SecurityConfiguration {
                 .formLogin()
                 .loginPage("/login").permitAll()
                 .defaultSuccessUrl("/", true)
-                //.and()
-                //.rememberMe()
                 .and()
                 .logout()
                 .logoutUrl("/logout")
